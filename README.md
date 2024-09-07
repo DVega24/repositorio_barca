@@ -14,7 +14,7 @@ Navegación Intuitiva: Explora la página con facilidad y encuentra lo que neces
 
     ```
 
-    git clone https://github.com/usuario/nombre-del-proyecto.git
+    git clone https://dvega24.github.io/repositorio_barca/
 
     ```
 
@@ -22,7 +22,7 @@ Navegación Intuitiva: Explora la página con facilidad y encuentra lo que neces
 
     ```
 
-    cd nombre-del-proyecto
+    cd Pagina FC Barcelona
 
     ```
 
