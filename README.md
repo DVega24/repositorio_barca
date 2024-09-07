@@ -14,7 +14,7 @@ Navegación Intuitiva: Explora la página con facilidad y encuentra lo que neces
 
     ```
 
-    git clone https://dvega24.github.io/repositorio_barca/
+   https://dvega24.github.io/repositorio_barca/
 
     ```
 
