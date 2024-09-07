@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #97152b; 
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 5px;
+        }
+        section {
+            margin: 20px;
+        }
+        .login-container {
+            margin: 20px;
+            text-align: center;
+        }
+        .login-container input {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .product-section {
+            margin: 20px;
+        }
+        .product-section img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+        .product-info {
+            margin: 20px 0;
+        }
+        .product-info p {
+            margin: 10px 0;
+        }
+        .btn-buy {
+            background-color: #c8102e; /* Color grana */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .btn-buy:hover {
+            background-color: #a40E2d; /* Color grana más oscuro al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado y Menú de Navegación -->
+    <header>
+        <h1>FC Barcelona</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="Logo FC Barcelona" width="200">
+        <nav>
+            <ul>
+                <li><a href="#bienvenida">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#plantilla">Plantilla Actual</a></li>
+                <li><a href="#trofeos">Trofeos</a></li>
+                <li><a href="#campnou">Camp Nou</a></li>
+                <li><a href="#lamasia">La Masia</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#login">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Bienvenida -->
+    <section id="bienvenida">
+        <div class="login-container" id="login">
+            <h2>Iniciar Sesión</h2>
+            <form action="#" method="post">
+                <input type="text" name="username" placeholder="Usuario" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+        <div>
+            <h2>Bienvenido a la página del FC Barcelona</h2>
+            <p>En esta página encontrarás información detallada sobre el FC Barcelona, incluyendo su historia, plantilla actual, trofeos, y mucho más. Además, ofrecemos una sección para la venta de productos oficiales.</p>
+            <img src="https://store.fcbarcelona.com/cdn/shop/files/Cabecera-Landing-Home-Away-Kit-966x618px-m.jpg?v=1725433130&width=1100" alt="imagen de 2 jugadores del barca">
+        </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="product-section">
+        <h1>Venta de Playeras</h1>
+        <div> 
+            <h3>Playeras para niños</h3>
+            <img src="https://store.fcbarcelona.com/cdn/shop/files/251100C_1.jpg?v=1721276172&width=1100" alt="Playera niños">
+            <div class="product-info">
+                <p>Playera oficial del FC Barcelona para niños.</p>
+                <p>Precio: $1700.00</p>
+                <a href="#" class="btn-buy">Comprar</a>
+        </div>
+        <div>
+            <h3>Playeras para Hombre</h3>
+            <img src="https://store.fcbarcelona.com/cdn/shop/files/25100C_1.jpg?v=1721275058&width=990" alt="Playera Hombre">
+            <div class="product-info">
+                <p>Playera oficial del FC Barcelona para Hombre.</p>
+                <p>Precio: $1900.00</p>
+                <a href="#" class="btn-buy">Comprar</a>
+        </div>
+        <div>
+            <h3>Playeras para Mujer</h3>
+            <img src="https://store.fcbarcelona.com/cdn/shop/files/25100CW_1.jpg?v=1721276675&width=990" alt="Playera Mujer">
+            <div class="product-info">
+                <p>Playera oficial del FC Barcelona para Mujer.</p>
+                <p>Precio: $1900.00</p>
+                <a href="#" class="btn-buy">Comprar</a>
+        </div>
+    </section>
+
+    <!-- Sección de Historia -->
+    <section id="historia">
+        <h2>Historia del Club</h2>
+        <p>El Fútbol Club Barcelona fue fundado en 1899 y ha sido un pilar en el fútbol mundial desde entonces. Con una rica historia llena de éxitos, es uno de los clubes más grandes del mundo.</p>
+        <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/04/24/15877540798835.jpg" alt="Foto antigua del FC Barcelona" width="450">
+        <ol>
+            <li>1899: Fundación del club.</li>
+            <li>1957: Inauguración del Camp Nou.</li>
+            <li>1992: Primera Champions League.</li>
+            <li>2009: Sextete bajo el mando de Pep Guardiola.</li>
+        </ol>
+    </section>
+
+    <!-- Sección de Plantilla Actual -->
+    <section id="plantilla">
+        <h2>Plantilla Actual 2024-2025</h2>
+        <table border="5" cellspacing="2" cellpadding="7">
+            <tr>
+                <th>Jugador</th>
+                <th>Posición</th>
+                <th>Número</th>
+            </tr>
+            <!-- Datos de la plantilla actual -->
+            <tr>
+                <td>Marc-André ter Stegen</td>
+                <td>Portero</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Iñaki Peña</td>
+                <td>Portero</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Pau Cubarsi</td>
+                <td>Defensa</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Ronald Araújo</td>
+                <td>Defensa</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Andreas Christensen</td>
+                <td>Defensa</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Jules Koundé</td>
+                <td>Defensa</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Iñigo Martinez</td>
+                <td>Defensa</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Alejandro Balde</td>
+                <td>Defensa</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Eric Garcia</td>
+                <td>Defensa</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Pablo Torre</td>
+                <td>Centrocampista</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Pablo Martín "Gavi"</td>
+                <td>Centrocampista</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Pedri González</td>
+                <td>Centrocampista</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Frenkie de Jong</td>
+                <td>Centrocampista</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Fermin Lopez</td>
+                <td>Centrocampista</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Marc Casado</td>
+                <td>Centrocampista</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Dani Olmo</td>
+                <td>Centrocampista</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Ferran Torres</td>
+                <td>Delantero</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Robert Lewandowski</td>
+                <td>Delantero</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Lamine Yamal</td>
+                <td>Delantero</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Raphinha</td>
+                <td>Delantero</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>Ansu Fati</td>
+                <td>Delantero</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Pau Victor</td>
+                <td>Delantero</td>
+                <td>18</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Sección de Trofeos -->
+    <section id="trofeos">
+        <h2>Trofeos Ganados</h2>
+        <ul>
+            <li>27 títulos de La Liga</li>
+            <li>31 Copas del Rey</li>
+            <li>5 Champions League</li>
+            <li>3 Mundiales de Clubes</li>
+            <li>14 Supercopas de España</li>
+            <li>3 Supercopas de Europa</li>
+        </ul>
+        <img src="https://fcbarcelonaclubdefutbol.weebly.com/uploads/2/6/3/2/26324102/486252308.jpg?626" alt="sextete del barcelona" width="450">
+    </section>
+
+    <!-- Sección del Estadio Camp Nou -->
+    <section id="campnou">
+        <br>
+        <h2>Estadio Camp Nou</h2>
+        <p>El Camp Nou es el estadio del FC Barcelona, con una capacidad de más de 99,000 espectadores. Inaugurado en 1957, ha sido testigo de muchos de los momentos más grandes del club.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Camp_Nou_aerial_%28cropped%29.jpg" alt="imagen del Camp Nou" width="500">
+    </section>
+
+    <!-- Sección de La Masia -->
+    <section id="lamasia">
+        <h2>La Masia</h2>
+        <p>La Masia es la academia de fútbol del FC Barcelona, famosa por desarrollar jóvenes talentos. Jugadores como Messi, Xavi e Iniesta se formaron aquí, y su canterano mas reciente, Lamine Yamal quien sigue los pasos de estos grandes jugadores.</p>
+        <ul>
+            <li>Lionel Messi</li>
+            <li>Xavi Hernández</li>
+            <li>Andrés Iniesta</li>
+            <li>Sergio Busquets</li>
+        </ul>
+        <img src="https://www.the-sun.com/wp-content/uploads/sites/6/2020/04/SPORT-PREVIEW-La-Masia-2.jpg?strip=all&w=620&h=413&crop=1" alt="imagen de Messi, Xavi e Iniesta" width="400">
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <br>
+        <h2>Contacto</h2>
+        <p>Para más información, visita las redes sociales del FC Barcelona:</p>
+        <ul>
+            <li><a href="https://twitter.com/fcbarcelona">Twitter</a></li>
+            <li><a href="https://www.instagram.com/fcbarcelona/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/fcbarcelona">Facebook</a></li>
+        </ul>
+    </section>
+    <br>
+    <footer>
+        <p>&copy; 2024 Página definitivamente no oficial del FC Barcelona.</p>
+    </footer>
+</body>
+</html>
+
